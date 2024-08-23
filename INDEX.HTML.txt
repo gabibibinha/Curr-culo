@@ -1,0 +1,80 @@
+INDEX.HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Gabriella Reinaldo</h1>
+    <p><b>Nascimento:</b> <i>12/05/2006</i></p>
+    <p><b>Email:</b> <i>gabi.bibinha.gs@gmail.com</i></p>
+    <p><b>Telefone:</b> <i>(83) 99982-2510</i></p>
+    <img src="53101.png" alt="avatar" width="100px" />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+      reprehenderit fugiat, recusandae placeat quas et provident veniam impedit,
+      commodi minus dignissimos, repellendus quaerat sint adipisci aut, debitis.
+      Architecto minima, harum!
+    </p>
+    <h2>Endereço</h2>
+    <hr />
+    <dl>
+      <dt><b>Rua</b></dt>
+      <dd>Sargento Miguel Moreno, 188</dd>
+      <dt><b>Cidade</b></dt>
+      <dd>João Pessoa, PB</dd>
+      <dt><b>Bairro</b></dt>
+      <dd>Mangabeira I</dd>
+    </dl>
+    <h2>Experiência</h2>
+    
+    <p> Estou em busca de uma oportunidade para ingressar no mercado de trabalho e desenvolver minhas habilidades e conhecimentos na área de tecnologia.</p>
+
+    <h2>Competências</h2>
+    <hr />
+    <ul>
+      <li>JavaScript</li>
+      <li>CSS</li>
+      <li>HTML</li>
+      <li>XML</li>
+    </ul>
+
+    <h2>Formação Acadêmica</h2>
+    <hr />
+    <h3>
+      <a href="https://www.iesp.edu.br/">
+        Cursando Ciencia da Computação
+      </a>
+    </h3>
+    
+  </body>
+</html>
+
+STYLE.CSS
+
+body {
+    color: darkslategray;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 24px;
+    background-color: lightblue;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+h1 , h2 , a{
+    color: darkblue;
+}
